@@ -33,25 +33,6 @@ h1 {
   padding: 1rem;
 }
 
-/* This is for the navigation bar */
-
-header {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 2rem 3rem;
-}
-
-nav {
-  display: flex;
-  gap: 3rem;
-  align-items: center;
-}
-
-.top-nav {
-  color: var(--primary-font-color);
-}
-
 /* Main content of page */
 main {
   color: var(--primary-font-color);
