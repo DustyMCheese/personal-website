@@ -6,6 +6,12 @@
 
 :root {
   --primary-font-color: #f9fafb;
+  --secondary-font-color: #b9bfcaef;
+}
+
+html {
+  height: 100%;
+  width: 100%;
 }
 
 body {
@@ -35,25 +41,37 @@ h1 {
 
 /* Main content of page */
 main {
+  margin: 0 35%;
   color: var(--primary-font-color);
   flex-grow: 1;
   padding: 1rem;
 }
 
 .content-section {
-  margin: 0 35%;
   padding-top: 2.5rem;
 }
 
 .content-name {
   padding-top: 1rem;
-  margin: 0 35%;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.project-links {
+  color: var(--secondary-font-color);
+  padding-right: 1rem;
+}
+
+.project-links:hover {
+  color: var(--primary-font-color);
 }
 
 .content {
-  margin: 0 35%;
   padding-top: 0.5rem;
-  color: #b9bfcaef;
+  color: var(--secondary-font-color);
 }
 
 .experience-education-name {
