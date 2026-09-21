@@ -69,13 +69,21 @@ ul {
   display: flex;
 }
 
+li {
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 .project-links {
-  color: var(--secondary-font-color);
-  padding-right: 1rem;
+  color: black;
+  padding: 0 0.5rem;
+  background-color: white;
+  border-radius: 1rem;
+  text-decoration: none;
 }
 
 .project-links:hover {
-  color: var(--primary-font-color);
+  color: gray;
 }
 
 .content {
